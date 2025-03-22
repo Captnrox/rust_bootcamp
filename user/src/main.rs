@@ -30,7 +30,7 @@ impl User {
 
 
     fn update(&mut self, new_email: String) {
-        self.mail = new_email;  // Update only the `mail` field
+        self.mail = new_email;  
     }
 }
 
